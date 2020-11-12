@@ -158,8 +158,6 @@ print('Web popularity index: {:.2f}'.format(chinese_index))
 print()
 
 
-##############################################################################################
-
 
 english_speakers_share = english_speakers / total_speakers
 english_websites = english_web_share * total_web
@@ -171,7 +169,6 @@ print('Web popularity index: {:.2f}'.format(english_index))
 print()
 
 
-############################################################################################
 
 
 russian_speakers_share = russian_speakers / total_speakers
@@ -182,9 +179,6 @@ print('Percentage of speakers: {:.1%}'.format(russian_speakers_share))
 print('Percentage of websites in the language: {:.1%}'.format(russian_web_share))
 print('Web popularity index: {:.2f}'.format(russian_index))
 print()
-
-
-#############################################################################################
 
 
 # --- Chinese ---
